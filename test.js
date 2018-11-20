@@ -21,5 +21,5 @@ const encryptedByNative = crypto.publicEncrypt({
   padding: crypto.constants.RSA_PKCS1_PADDING
 }, new Buffer(keyword, 'utf8'));
 
-console.log("ursa", encryptedByUrsa)
-console.log("native", encryptedByNative.toString('base64'))
+console.log("ursa", encryptedByUrsa);
+console.log("native", encryptedByNative.toString('base64'));
